@@ -1,0 +1,13 @@
+yolo_model:
+
+  config_file:
+    name: roboboat_2019_tiny3.cfg 
+  weight_file:
+    name: roboboat2019_tiny3_68000.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - bouy
+      - marker
+  
