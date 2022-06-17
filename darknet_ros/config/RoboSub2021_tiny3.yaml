@@ -1,0 +1,16 @@
+yolo_model:
+
+  config_file:
+    name: robosub_2021_tiny3.cfg 
+  weight_file:
+    name: robosub2021_96_98.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - police
+      - gangster
+      - gate
+      - gun
+      - badge
+      - marker
